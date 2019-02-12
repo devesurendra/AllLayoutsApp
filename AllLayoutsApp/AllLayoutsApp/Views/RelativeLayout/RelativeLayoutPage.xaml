@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AllLayoutsApp.Views.RelativeLayout.RelativeLayoutPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Next" Command="{Binding GoNextCommand}" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <RelativeLayout>
+            <BoxView Color="Red" x:Name="RedBox" 
+                     RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.15,Constant=0}"
+                     RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+                     RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.8,Constant=0}" />
+            <BoxView Color="Blue" x:Name="blueView"
+                     RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=RedBox,Property=X,Factor=1,Constant=20}"
+                     RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=RedBox,Property=Y,Factor=1,Constant=20}"
+                     RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,ElementName=RedBox,Property=Width,Factor=.5,Constant=0}"
+                     RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView,ElementName=RedBox,Property=Height,Factor=0.7,Constant=0}" />
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>

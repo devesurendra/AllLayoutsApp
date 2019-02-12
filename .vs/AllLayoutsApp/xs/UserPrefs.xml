@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{706E7E73-1C01-48DA-8536-7DC4AD214A6C}|Default">
+  <MonoDevelop.Ide.ItemProperties.AllLayoutsApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5FC1A896-35D5-4D59-B3A8-E42287145683" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AllLayoutsApp/AllLayoutsApp/App.xaml.cs">
+    <Files>
+      <File FileName="AllLayoutsApp/AllLayoutsApp/App.xaml.cs" Line="41" Column="78" />
+      <File FileName="AllLayoutsApp/AllLayoutsApp/Views/CustomMasterDetailPage.xaml" Line="25" Column="1" />
+      <File FileName="AllLayoutsApp/AllLayoutsApp/Views/StackLayoutPage.xaml" Line="20" Column="1" />
+      <File FileName="AllLayoutsApp/AllLayoutsApp/ViewModels/StackLayoutPageViewModel.cs" Line="15" Column="1" />
+      <File FileName="AllLayoutsApp/AllLayoutsApp/Views/StackLayout/ComplexStackLayoutPage.xaml" Line="44" Column="1" />
+      <File FileName="AllLayoutsApp/AllLayoutsApp/Views/RelativeLayout/RelativeLayoutPage.xaml" Line="20" Column="1" />
+      <File FileName="AllLayoutsApp/AllLayoutsApp/Views/RelativeLayout/ComplexRelativeLayoutPage.xaml" Line="14" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.AllLayoutsApp.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" FirstBuild="True" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
